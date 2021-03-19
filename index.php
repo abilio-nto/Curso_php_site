@@ -38,7 +38,49 @@
                       
                    </ul>
                </div>
-             
+               <div class="modulo vermelho">
+                   <h3>Módulo - 2 Tipos</h3>
+                   <ul>
+                       <li><a href="exercicio.php?dir=tipos&file=int">Tipos - Int</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=tipos&file=float">Tipos - Float</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=tipos&file=operacoes">Operações</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=tipos&file=desafio_precedencia">Desafio precedência</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=tipos&file=string">String</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=tipos&file=desafio_string">Desáfio String</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=tipos&file=booleano">Booleano</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=tipos&file=conversao">Booleano</a></li>
+                      
+                   </ul>
+               </div>
+               <div class="modulo azul">
+                   <h3>Módulo - 3 Variáveis</h3>
+                   <ul>
+                       <li><a href="exercicio.php?dir=variaveis&file=variaveis">Variáveis</a></li>
+                      
+                   </ul>
+                
+               </div>
         </div>
     </main>
     <footer class="rodape">
