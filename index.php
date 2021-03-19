@@ -16,9 +16,25 @@
         <div class="conteudo">
             <div class="modulos">
                <div class="modulo verde">
-                   <h3>Módulo - 1</h3>
+                   <h3>Módulo - 1 Básico</h3>
                    <ul>
-                       <li><a href="exercicio.php?dir=teste&file=teste">Exercicio 1</a></li>
+                       <li><a href="exercicio.php?dir=basico&file=ola">Olá PHP</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=basico&file=html">Integração HTML</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=basico&file=css">Integração CSS</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=basico&file=comentarios">Comentários PHP</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=basico&file=desafio">Desafio PHP</a></li>
                       
                    </ul>
                </div>
