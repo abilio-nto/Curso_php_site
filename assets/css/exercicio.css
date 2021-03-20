@@ -49,3 +49,13 @@ body{
    margin-bottom: 15px;
 
 }
+
+.conteudo > p {
+   
+    margin-bottom: -10px;
+}
+
+.conteudo > hr {
+   
+    margin-top: 6px;
+}
