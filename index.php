@@ -15,6 +15,59 @@
     <main class="principal">
         <div class="conteudo">
             <div class="modulos">
+            <div class="modulo laranja">
+                   <h3>Módulo 5 -  Array</h3>
+                   <ul>
+                       <li><a href="exercicio.php?dir=array&file=basico">Array básico</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=array&file=array_mapas">Array Mapas</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=array&file=desafio_indice">Desafio Indice</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=array&file=desafio_data">Desafio Data</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=array&file=operacoes_array">Operações com Array</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=array&file=desafio_sorteio">Desafio sorteio</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=array&file=array_multi">Array Multidimensional</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=array&file=array_const">Array Constante</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=array&file=get">$_GET</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=array&file=post">$_POST</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=array&file=comparacao">Comparação arrays</a></li>
+                      
+                   </ul>
+                
+                
+                
+                
+                
+                
+               </div>
             <div class="modulo roxo">
                    <h3>Módulo 4 -  Controle</h3>
                    <ul>
