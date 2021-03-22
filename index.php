@@ -9,12 +9,57 @@
 </head>
 <body>
     <header class="cabecalho">
-        <h1>Meus Cursos</h1>
-        <h2>Indice de Cursos e Exercicios</h2>
+        <div class="div-cab">    
+            <h1>Meus Cursos</h1>
+            <h2>Indice de Cursos e Exercicios</h2>
+       </div>
+    
+        <nav class="nav-bar">
+            <ul class="nav-ul">
+                <li class="nav-li"><a href="index.php" class="nav-link">Home</a></li>
+                <li class="nav-li"><a href="teste.php?dir=exercicios_php&file=exercicio01" class="nav-link">Teste</a></li>
+            </ul>
+        </nav>
     </header>
     <main class="principal">
         <div class="conteudo">
             <div class="modulos">
+            <div class="modulo verde-escuro">
+                   <h3>Módulo 6 -  Repetição</h3>
+                   <ul>
+                       <li><a href="exercicio.php?dir=repeticao&file=for">Laço For</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=repeticao&file=desafio_for">Desafio For</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=repeticao&file=foreach">ForEach</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=repeticao&file=break_continue">break continue</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=repeticao&file=desafio_break">Desafio break continue</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=repeticao&file=while_dowhile"> while do while</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=repeticao&file=desafio_tabela">Desafio Tabela</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=repeticao&file=desafio_tabela2">Desafio Tabela 3</a></li>
+                      
+                   </ul>
+                  
+              </div>     
             <div class="modulo laranja">
                    <h3>Módulo 5 -  Array</h3>
                    <ul>
