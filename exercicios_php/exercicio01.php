@@ -22,19 +22,18 @@
   $n3 = intval($_POST['n3']);
 
   
-  $alunos = [];
+
  
   
   
-  $cont = 0;
-  if(!empty($alunos)===1){
-    $alunos[$cont][$nome]  = [$n1,$n2,$n3];
-    $cont++;
-    print_r($alunos);
-  }else{
-    echo "aqui";
-  }
 
+   $alunos[$nome]= "{[$n1,$n2,$n3]}," ;
+  //  $alunos=[
+  //         'abilio' => ['n1','n2'],
+  //         'lima'=>['n3','n4'],
+
+  //  ];
+    print_r($alunos);
        
 
 ?>

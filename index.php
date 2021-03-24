@@ -17,13 +17,60 @@
         <nav class="nav-bar">
             <ul class="nav-ul">
                 <li class="nav-li"><a href="index.php" class="nav-link">Home</a></li>
-                <li class="nav-li"><a href="teste.php?dir=exercicios_php&file=exercicio01" class="nav-link">Teste</a></li>
+                <li class="nav-li"><a href="teste.php?dir=exercicios_php&file=banco" class="nav-link">Teste</a></li>
             </ul>
         </nav>
     </header>
     <main class="principal">
         <div class="conteudo">
             <div class="modulos">
+            <div class="modulo vermelho-escuro">
+                   <h3>Módulo 7 -  Funções</h3>
+                   <ul>
+                       <li><a href="exercicio.php?dir=funcoes&file=funcoes">Funcções</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=funcoes&file=funcoes_retorno">Funcções com retorno</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=funcoes&file=desafio_palidromo">Funcções com retorno</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=funcoes&file=argumentos_variaveis">Argumentos variáveis</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=funcoes&file=argumento_padrao">Argumentos padrão</a></li>
+                      
+                   </ul>
+                   <ul>
+                   <li><a href="exercicio.php?dir=funcoes&file=declarando_tipos">Declarando tipos</a></li>
+                      
+                   </ul>
+                   <ul>
+                   <li><a href="exercicio.php?dir=funcoes&file=funcao_anonima">funcao anonima</a></li>
+                      
+                   </ul>
+                   <ul>
+                   <li><a href="exercicio.php?dir=funcoes&file=closure">closure_callable</a></li>
+                      
+                   </ul>
+                   <ul>
+                   <li><a href="exercicio.php?dir=funcoes&file=recursividade">Recursividade</a></li>
+                      
+                   </ul>
+                   <ul>
+                   <li><a href="exercicio.php?dir=funcoes&file=desafio_recursiva">Desafio Recursividade</a></li>
+                      
+                   </ul>
+                   <ul>
+                   <li><a href="exercicio.php?dir=funcoes&file=retornando_funcao">Retornando Funções</a></li>
+                      
+                   </ul>
+             </div>      
             <div class="modulo verde-escuro">
                    <h3>Módulo 6 -  Repetição</h3>
                    <ul>
