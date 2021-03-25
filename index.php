@@ -17,13 +17,37 @@
         <nav class="nav-bar">
             <ul class="nav-ul">
                 <li class="nav-li"><a href="index.php" class="nav-link">Home</a></li>
-                <li class="nav-li"><a href="teste.php?dir=exercicios_php&file=banco" class="nav-link">Teste</a></li>
+                <li class="nav-li"><a href="teste.php?dir=exercicios_php&file=exercicio01" class="nav-link">Teste</a></li>
             </ul>
         </nav>
     </header>
     <main class="principal">
         <div class="conteudo">
             <div class="modulos">
+            <div class="modulo azul-escuro">
+                   <h3>Módulo 8 -  Orientação a Objetos</h3>
+                   <ul>
+                       <li><a href="exercicio.php?dir=orientacao_objetos&file=classe">Classes</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=orientacao_objetos&file=desafio_data">Desafio Classes</a></li>
+                      
+                   </ul>
+                        
+                   <ul>
+                       <li><a href="exercicio.php?dir=orientacao_objetos&file=contrutor_destrutor">Contrutor Destrutor</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=orientacao_objetos&file=heranca">Heranca</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=orientacao_objetos&file=modificador_acesso">Modificador Acesso</a></li>
+                      
+                   </ul>
+             </div>      
             <div class="modulo vermelho-escuro">
                    <h3>Módulo 7 -  Funções</h3>
                    <ul>
@@ -68,6 +92,10 @@
                    </ul>
                    <ul>
                    <li><a href="exercicio.php?dir=funcoes&file=retornando_funcao">Retornando Funções</a></li>
+                      
+                   </ul>
+                   <ul>
+                   <li><a href="exercicio.php?dir=funcoes&file=filter_map">Filter & Map</a></li>
                       
                    </ul>
              </div>      

@@ -22,18 +22,25 @@
   $n3 = intval($_POST['n3']);
 
   
-
+   
  
-  
-  
+  function preencherArray($nome,...$notas){
+     
+    global $alunos;
+     $indice=0;
+    $alunos[$indice+1] = $nome=[$notas] ;
 
-   $alunos[$nome]= "{[$n1,$n2,$n3]}," ;
+  }
+  
+  preencherArray($nome, $n1,$n2,$n3);
+   
+   
   //  $alunos=[
   //         'abilio' => ['n1','n2'],
   //         'lima'=>['n3','n4'],
 
   //  ];
-    print_r($alunos);
+    var_dump($alunos);
        
 
 ?>
