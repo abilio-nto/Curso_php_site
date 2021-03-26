@@ -9,7 +9,7 @@ class Pessoa{
    public $idade;
 
    function __construct($nome,$idade){
-       
+        //o this é importante para indicar que queremos modificar os atributos do objeto em uso.
         $this->nome=$nome;
         $this->idade=$idade;
    
@@ -32,6 +32,7 @@ class Usuario extends Pessoa{
     public $login;
 
     function __construct($nome,$idade,$login){
+        //o parent:: acessa o elemento pai trazendo assim o reuso do código já escrito
         parent::__construct($nome,$idade);
         $this->login=$login;
     }
@@ -41,7 +42,7 @@ class Usuario extends Pessoa{
         echo"usuario dando tchau!!<br>";
     }
 
-
+    //as funções podem ser sobreescritas ou podemos acomplementar o que já axiste.
     public function apresentar(){
         echo "login: @{$this->login}, ";
         parent::apresentar();

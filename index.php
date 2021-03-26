@@ -47,6 +47,34 @@
                        <li><a href="exercicio.php?dir=orientacao_objetos&file=modificador_acesso">Modificador Acesso</a></li>
                       
                    </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=orientacao_objetos&file=membro_static">Membro Static</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=orientacao_objetos&file=interface">Interfaces</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=orientacao_objetos&file=classe_abstrata">Classes Abstratas</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=orientacao_objetos&file=desafio7">Desafio 7 erros</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=orientacao_objetos&file=final">Final</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=orientacao_objetos&file=traits">Traits</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=orientacao_objetos&file=traits2">Traits 2</a></li>
+                      
+                   </ul>
              </div>      
             <div class="modulo vermelho-escuro">
                    <h3>Módulo 7 -  Funções</h3>
