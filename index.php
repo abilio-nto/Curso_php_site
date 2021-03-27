@@ -24,6 +24,33 @@
     <main class="principal">
         <div class="conteudo">
             <div class="modulos">
+            <div class="modulo roxo-escuro">
+                   <h3>Módulo 9 -  Includes</h3>
+                   <ul>
+                       <li><a href="exercicio.php?dir=include&file=include">Include</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=include&file=include_funcoes">include uncoes</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=include&file=include_require">include require</a></li>
+                      
+                    </ul>
+                    <ul>
+                        <li><a href="exercicio.php?dir=include&file=require_return">require return</a></li>
+                       
+                    </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=include&file=include_once.php">include once></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=include&file=sistema">Desafio include once></li>
+                      
+                   </ul>
+               </div>    
             <div class="modulo azul-escuro">
                    <h3>Módulo 8 -  Orientação a Objetos</h3>
                    <ul>
@@ -73,6 +100,14 @@
                    </ul>
                    <ul>
                        <li><a href="exercicio.php?dir=orientacao_objetos&file=traits2">Traits 2</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=orientacao_objetos&file=metodos_magicos">Metodos mágicos</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=orientacao_objetos&file=polimofismo">Polimofismo</a></li>
                       
                    </ul>
              </div>      
