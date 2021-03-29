@@ -24,6 +24,13 @@
     <main class="principal">
         <div class="conteudo">
             <div class="modulos">
+            <div class="modulo amarelo">
+                   <h3>Módulo 10 -  namespace</h3>
+                   <ul>
+                       <li><a href="exercicio.php?dir=namespace&file=namespace">Namespace</a></li>
+                      
+                   </ul>
+            </div>       
             <div class="modulo roxo-escuro">
                    <h3>Módulo 9 -  Includes</h3>
                    <ul>
@@ -53,6 +60,7 @@
                </div>    
             <div class="modulo azul-escuro">
                    <h3>Módulo 8 -  Orientação a Objetos</h3>
+                   
                    <ul>
                        <li><a href="exercicio.php?dir=orientacao_objetos&file=classe">Classes</a></li>
                       

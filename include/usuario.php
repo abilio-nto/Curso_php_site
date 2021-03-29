@@ -1,7 +1,9 @@
+
+
 <?php
 
 require_once('pessoa.php');
-echo"Carregando usuario";
+echo"Carregando usuario<br>";
 class Usuario extends Pessoa{
 
      function __construct($login,$senha){
@@ -9,9 +11,13 @@ class Usuario extends Pessoa{
 
      }
   public function login($login, $senha){
-    echo"Cheguei aqui";
+  
     if($this->login==$login && $this->senha==$senha){
-        echo"usuario logado";
+        echo"construtor login:{$this->login}, construtor senha{$this->senha} - Parametro func:{$login} senha:{$senha}<br>";
+        echo"usuario logado<br>";
+    }else{
+      echo"construtor login:{$this->login}, construtor senha{$this->senha} - Parametro func:{$login} senha:{$senha}<br>";
+      echo"usuario ou senha errado";
     }
 
   }

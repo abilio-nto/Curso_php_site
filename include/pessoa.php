@@ -1,5 +1,5 @@
 <?php
-echo"Carregando pessoa";
+echo"Carregando pessoa<br>";
 class Pessoa{
 
    public $login;
@@ -10,6 +10,10 @@ class Pessoa{
     $this->login = $login;
     $this->senha = $senha;
 
+   }
+
+   public function resetSenha($novaSenha){
+      $this->senha = $novaSenha;
    }
     
 
