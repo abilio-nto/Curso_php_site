@@ -1,5 +1,17 @@
+<?php
+session_start();
+
+if($_COOKIE['usuario']){
+    $_SESSION['usuario'] = $_COOKIE['usuario'];
+}
+if(!$_SESSION['usuario']){
+    header('Location: login.php');
+}
+?>
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,17 +25,49 @@
             <h1>Meus Cursos</h1>
             <h2>Indice de Cursos e Exercicios</h2>
        </div>
-    
-        <nav class="nav-bar">
-            <ul class="nav-ul">
-                <li class="nav-li"><a href="index.php" class="nav-link">Home</a></li>
-                <li class="nav-li"><a href="teste.php?dir=exercicios_php&file=exercicio01" class="nav-link">Teste</a></li>
-            </ul>
-        </nav>
     </header>
+    <nav class="navegacao" >
+      <span class="usuario">Usuário: <?=$_SESSION['usuario']?></span>  
+      <a href="logout.php" class="vermelho">Sair</a>  
+     </nav>
     <main class="principal">
         <div class="conteudo">
             <div class="modulos">
+            <div class="modulo azul">
+                   <h3>Módulo 13 -  API</h3>
+                   <ul>
+                       <li><a href="exercicio.php?dir=api_php&file=data_01">Data #1</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=api_php&file=data_02">Data #2</a></li>
+                      
+                   </ul>
+
+            </div>
+            <div class="modulo verde">
+                   <h3>Módulo 12 -  Sessão e cookies</h3>
+                   <ul>
+                       <li><a href="exercicio.php?dir=sessao&file=basico_sessao">Tratamentos de erros</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=sessao&file=gerenciamento_sessao">Gerencimaneot de sessao</a></li>
+                      
+                   </ul>
+            </div> 
+            <div class="modulo azul-claro">
+                   <h3>Módulo 11 -  Tratamentos de arror</h3>
+                   <ul>
+                       <li><a href="exercicio.php?dir=tratamento_de_erros&file=erros">Tratamentos de erros</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=tratamento_de_erros&file=teste">Desafio Erro</a></li>
+                      
+                   </ul>
+                 
+            </div> 
             <div class="modulo amarelo">
                    <h3>Módulo 10 -  namespace</h3>
                    <ul>

@@ -7,12 +7,50 @@ body{
     height: 100vh;
     margin: 0;
     display: grid;
-    grid-template-rows: 120px 1fr 60px;
+    grid-template-rows: 120px 60px 1fr 60px;
     grid-template-columns: 1fr;
     grid-template-areas: 
-        "cabecalho"
-        "principal"
-        "rodape" ;
+       "cabecalho" 
+       "navegacao" 
+       "principal" 
+       "rodape";
+}
+body{
+    grid-template-rows: 120px 60px 1fr 60px;
+    grid-template-areas: 
+       "cabecalho" 
+       "navegacao" 
+       "principal" 
+       "rodape";
+}
+.navegacao{
+    padding: 15px;
+    grid-area: navegacao;
+    background-color: #555;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+span.usuario{
+    flex-grow: 1;
+    justify-self: flex-start;
+    color: white;
+    font-size: 1.3rem;
+    
+    font-weight: 300;
+    padding: 8px;
+}
+
+.navegacao > a{
+ 
+    padding: 5px 20px;
+    margin-right: 10px;
+    color: white;
+    background-color: #2196f3;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
 }
 
 .cabecalho{
@@ -146,7 +184,8 @@ body{
     text-decoration: none;
     color: #222;
 }
-
+.navegacao > a.verde{ background-color: #4CAF50;}
+.navegacao > a.vermelho{ background-color: #F44336;}
 .modulo > ul > li:hover{
    
     background-color: #EEE;
@@ -181,3 +220,5 @@ body{
 
 .modulo.amarelo{ border: 2px solid #d15a22;}
 .modulo.amarelo > h3{ background-color:#d15a22;}
+.modulo.azul-claro{ border: 2px solid #41ecec;}
+.modulo.azul-claro > h3{ background-color:#41ecec;}
