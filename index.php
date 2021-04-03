@@ -34,13 +34,71 @@ if(!$_SESSION['usuario']){
         <div class="conteudo">
             <div class="modulos">
             <div class="modulo azul">
-                   <h3>Módulo 13 -  API</h3>
+                   <h3>Módulo 15 -  BD</h3>
                    <ul>
-                       <li><a href="exercicio.php?dir=api_php&file=data_01">Data #1</a></li>
+                       <li><a href="exercicio.php?dir=db&file=cria_banco">Cria Banco</a></li>
                       
                    </ul>
                    <ul>
-                       <li><a href="exercicio.php?dir=api_php&file=data_02">Data #2</a></li>
+                       <li><a href="exercicio.php?dir=db&file=criar_tabela">Cria tabela</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=db&file=inserir">Inserir</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=db&file=consultar">Consulta</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=db&file=excluir">Excluir #1</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=db&file=consultar2">Excluir #2</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=db&file=inserir2">Inserir #2</a></li>
+                      
+                   </ul>
+           </div>
+            <div class="modulo azul">
+                   <h3>Módulo 14 -  Formulario</h3>
+                   <ul>
+                       <li><a href="exercicio.php?dir=formulario&file=cadastro">cadastro</a></li>
+                      
+                   </ul>
+           </div>
+            <div class="modulo azul">
+                   <h3>Módulo 13 -  API</h3>
+                   <ul>
+                       <li><a href="exercicio.php?dir=Api&file=data_01">Data #1</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=Api&file=data_02">Data #2</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=Api&file=escrevendo_arquivos">Escrevendo Arquivos</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=Api&file=lendo_arquivo">Lendo Arquivos</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=Api&file=upload">Lendo Arquivos</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=Api&file=download_arquivo">Download de arquivos</a></li>
+                      
+                   </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=Api&file=desafioimagen">Desafio Imagem</a></li>
                       
                    </ul>
 
