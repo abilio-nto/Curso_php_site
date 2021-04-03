@@ -63,6 +63,10 @@ if(!$_SESSION['usuario']){
                        <li><a href="exercicio.php?dir=db&file=inserir2">Inserir #2</a></li>
                       
                    </ul>
+                   <ul>
+                       <li><a href="exercicio.php?dir=db&file=alterando">Alterando</a></li>
+                      
+                   </ul>
            </div>
             <div class="modulo azul">
                    <h3>Módulo 14 -  Formulario</h3>
